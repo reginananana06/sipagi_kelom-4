@@ -1,0 +1,382 @@
+/*body{
+	background: #212529;
+}*/
+
+/*NAVBAR*/
+
+/* .navbar-bar{
+	background: url("assets/image/logo.png");
+	background-repeat: no-repeat;
+	background-size: 70px;
+		padding-top: 90px;
+	  padding-left: 200px !important;
+} */
+
+.navbar-brand{
+	background: url("assets/image/anak2.png");
+	background-repeat: no-repeat;
+	background-size: 70px;
+	padding-top: 90px;
+	padding-left: 200px !important;
+}
+
+.navbar-brand h4{
+	margin-top: -55px;
+	font-family: Viga;
+	text-transform: uppercase;
+	font-size: 25px;
+	color: #00bd58 !important;
+
+}
+.navbar-nav{
+	margin-left: auto;
+	font-family: Viga;
+	text-transform: uppercase;
+	font-size: 22px;
+
+}
+.login .btn{
+		font-family: Viga;
+}
+.nav-bar{
+	background: #00bf06;
+}
+
+/*jumbotron*/
+
+.jumbotron {
+	background-image: url('assets/image/poster1.jpg');
+	background-repeat: no-repeat;
+	background-size: 110%;
+
+	height: 115vh;
+	margin-top: -10px;
+	
+}
+.jumbotron .button{
+		text-align: center;
+		margin-top: 20px;
+}
+
+.jumbotron .display-4{
+	color: white;
+	padding-top: 80px;
+	text-align: center;
+	margin-right: 20px;
+	font-weight: bold;
+	text-shadow: 1px 1px 1px rgba(0,0,0,0.5);
+	font-size: 17px;
+}
+/*JUMBUTRON GALERY*/
+.jumbotron-galery {
+	background-image: url('assets/image/bg-galery.png');
+	background-repeat: no-repeat;
+	background-size: 125%;
+	margin-left: -390px;
+	height: 50vh;
+	margin-top: -50px;
+	
+}
+.jumbotron-galery .display-4{
+	color: white;
+	padding-top: 130px;
+	margin-left: 430px;
+	font-weight: bold;
+	text-shadow: 1px 1px 1px rgba(0,0,0,0.5);
+	font-size: 10px;
+}
+
+/*About*/
+
+.agileabout {
+	padding: 100px 0;
+	margin-top: -400px;
+	display: block;
+	position: relative;
+	background-size: cover;
+}
+.agileabout h1{
+	font-size: 20px;
+	font-weight: 700;
+	margin-bottom: 50px;
+	color: #5abdbf;
+	text-align: center;	
+}
+.agileabout img{
+	 
+	
+	 width: 0px;
+	 height: 0px;
+}
+
+
+.agileabout p{
+	text-align: center;
+	margin-left: 10px;
+	font-weight: normal;
+	font-size: 15px;
+}
+
+/*Service*/
+.cardser{
+margin-top: -50px;
+}
+.cardser h3{
+font-size: 20px;
+	font-weight: 700;
+	margin-bottom: 50px;
+	color: #5abdbf;
+	text-align: center;		
+}
+.card-group{
+margin-bottom: 90px;
+}
+.card-0{
+width: 30%;
+margin-left:150px;
+}
+.card-0 P{
+font-family: 'Montserrat', sans-serif;
+font-weight: bold;
+font-size: 17px;
+font-family: Viga;
+}
+.card-1{
+width: 30%;
+margin-left:150px;
+margin-top: -70px;
+}
+.card-1 P{
+font-family: 'Montserrat', sans-serif;
+font-weight: bold;
+font-size: 17px;
+font-family: Viga;
+}
+.card-2{
+width: 30%;
+margin-left:150px;
+}
+.card-2 P{
+font-family: 'Montserrat', sans-serif;
+font-weight: bold;
+font-size: 17px;
+font-family: Viga;
+}
+
+
+/*contact*/
+.kontak{
+	background:#5abdbf;
+	margin-top: 70px;
+	padding-bottom: 30px;
+}
+.kontak img{
+	margin-bottom: 50px;
+}
+.icon{
+		margin-top: 0px;
+		margin-left:140px;
+}
+.tulisan {
+	color:#FFFFFF;
+}
+.icon img{
+	width: 50px;
+	height: 50px;
+	padding:5px;
+	margin-bottom: 5px;
+}
+.kontak h3{
+	margin-bottom: 30px;
+	padding-top: 30px;
+	font-weight: bold;
+	color:#FFFF;
+	font-size: 20px;
+	margin-left: 170px;
+}
+
+/*class garis*/
+hr.style14 { 
+border: 0; 
+height: 2px; 
+background-image: -webkit-linear-gradient(left, #f0f0f0, #5abdbf, #f0f0f0);
+background-image: -moz-linear-gradient(left, #f0f0f0, #5abdbf, #f0f0f0);
+background-image: -ms-linear-gradient(left, #f0f0f0, #5abdbf, #f0f0f0);
+background-image: -o-linear-gradient(left, #f0f0f0, #5abdbf, #f0f0f0); 
+
+}
+
+/*Galery*/
+.form-holder button{
+margin-top: 120px;
+margin-left: -120px;
+}
+
+
+
+
+/*Desktop Version*/
+@media(min-width: 900px) {
+.navbar-nav a {
+	color: white !important;
+	text-shadow: 1px 1px 1px rgba(0,0,0,0.5);
+
+}
+.navbar-brand{
+	background-size: 80px;
+	margin-top: -20px;
+	padding-top: 90px;
+	  padding-left: 250px !important;
+	  text-shadow: 1px 1px 1px rgba(0,0,0,0.5);
+}
+.navbar {
+	background: #5abdbf;
+}
+	.navbar-brand h4{
+	margin-top: -48px;
+	margin-left: -150px;
+	font-family: Viga;
+	text-transform: uppercase;
+	font-size: 27px;
+	color: white !important;
+
+}
+.nav-link {
+	text-transform: uppercase;
+	margin-right: 40px; 
+
+}
+.jumbotron{
+	margin-top: -165px;
+	width: 210vh;
+	height: 120vh;
+}
+	.nav-link:hover::after {
+	content: '';
+	display: block;
+	border-bottom: 3px solid #FFFFFF;
+	width: 50%;
+	margin:auto;
+	padding-bottom: 5px;
+	margin-bottom: -8px;
+}
+.jumbotron .display-4 {
+	color: #5abdbf;
+	padding-top: 300px;
+	font-size: 38px;
+	text-align: left;
+	margin-left: 10px;
+
+}
+.jumbotron .btn {
+	background: #5abdbf;
+	color: white;
+	font-size: 20px;
+	font-weight: bold;
+	padding: 10px 30px;
+	margin-top: 30px;
+	margin-left: 10px;
+
+}
+
+.jumbotron .button{
+	text-align: left;
+	margin-left: 10px;
+	margin-top: 30px;
+}
+
+.jumbotron-galery{
+	margin-left: -750px;
+	text-align: center;
+	height:500px;
+	margin-top: -220px;
+}
+.jumbotron-galery .display-4{
+	color: white;
+	padding-top: 315px;
+	padding-left: 500px;
+	margin-left: 230px;
+	font-weight: bold;
+	text-shadow: 1px 1px 1px rgba(0,0,0,0.5);
+	font-size: 38px;
+}
+
+
+/*Service*/
+.cardser h3{
+	font-size: 35px;
+}
+.card-0{
+	width: 25%;
+	margin-left:420px;
+}
+.card-1{
+	width: 25%;
+	margin-left:420px;
+}
+.card-2{
+	width: 25%;
+	margin-left:420px;
+}
+/*cardabout*/
+.agileabout{
+	margin-top: -40px;
+}
+.agileabout h1{
+	font-size: 35px;
+}
+.agileabout p{
+text-align: justify;
+margin-left: 30px;
+font-size: 20px;
+}
+.agileabout img{
+	 
+	 margin-left: 650px; 
+	 margin-top: -500px;
+	 width: 350px;
+	 height: 400px;
+}
+.agileabout-grid-1 h2 {
+	font-family: 'Roboto', sans-serif;
+	font-size: 40px;
+	font-weight: 100;
+	text-align: left;
+
+}
+
+
+/*contact*/		
+.kontak h3{
+	margin-bottom: 30px;
+	padding-top: 30px;
+	font-weight: bold;
+	color:#FFFF;
+	font-size: 32px;
+	margin-left: 480px;
+}
+.kontak img{
+	width: 800px;
+	height: 400px;
+	margin-left: 170px;
+	margin-bottom: 50px;
+}	
+
+.icon img{
+	width: 50px;
+	height: 50px;
+	padding:5px;
+	margin-bottom: 5px;
+	
+
+}
+.icon{
+		margin-top: 0px;
+		margin-left:150px;
+}
+/*Galery*/
+.jumbuton-galery{
+	padding-top: 135px;
+}
+
+}
